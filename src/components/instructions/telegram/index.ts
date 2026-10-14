@@ -1,0 +1,1 @@
+export { InstructionTelegram } from './instruction'

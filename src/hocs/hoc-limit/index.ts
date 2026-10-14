@@ -1,0 +1,1 @@
+export { HocLimit } from './hoc'

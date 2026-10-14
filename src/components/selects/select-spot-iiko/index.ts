@@ -1,0 +1,1 @@
+export { SelectSpotIiko } from './select'

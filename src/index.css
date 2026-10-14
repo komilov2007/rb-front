@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: var(--app-font, Onest, serif) !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+input::-webkit-search-cancel-button {
+  right: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  -webkit-appearance: none;
+  background: url('/src/assets/icons/remove-search.svg') no-repeat 50% 50%;
+}
+
+/*
+ * --sai-top / --sai-bottom are injected by the React Native WebView shell
+ * before the page loads; env(safe-area-inset-*) is the plain-browser fallback.
+ */
+:root {
+  --safe-top: var(--sai-top, env(safe-area-inset-top, 0px));
+  --safe-bottom: var(--sai-bottom, env(safe-area-inset-bottom, 0px));
+}
+
+#root {
+  /* 100dvw causes a horizontal jiggle whenever a scrollbar/inset exists, and
+     older Android WebViews drop the whole declaration — hence the 100% fallback. */
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+  /* Insets belong here rather than on body: with the global border-box they eat
+     into the 100dvh instead of adding to it, so the page does not gain a
+     safe-area-sized scroll offset. */
+  padding-top: var(--safe-top);
+  padding-bottom: var(--safe-bottom);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+html,
+body {
+  -webkit-overflow-scrolling: touch !important;
+  overflow: auto !important;
+}
+
+body:not(.mac) {
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+
+  ::-webkit-scrollbar:horizontal {
+    height: 3px;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 1px;
+    background: #e5e5e5;
+  }
+
+  ::-webkit-scrollbar-thumb,
+  ::-webkit-scrollbar-thumb:hover {
+    border-radius: 8px;
+    background: #9a9a9a;
+  }
+}
+
+.PhotoView-Portal {
+  z-index: 200000 !important;
+}

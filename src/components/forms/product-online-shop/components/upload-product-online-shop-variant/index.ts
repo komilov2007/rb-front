@@ -1,0 +1,1 @@
+export { UploadProductOnlineShopVariant } from './upload'

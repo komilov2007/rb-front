@@ -1,0 +1,1 @@
+export { HocTariffPrice } from './hoc'

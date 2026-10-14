@@ -1,0 +1,1 @@
+export { FormDiscountOnlineShop } from './form'

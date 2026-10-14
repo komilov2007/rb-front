@@ -1,0 +1,1 @@
+export { SelectAliPosSpot } from './select'

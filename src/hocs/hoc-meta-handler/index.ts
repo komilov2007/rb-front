@@ -1,0 +1,1 @@
+export { HocMetaHandler } from './hoc'

@@ -1,0 +1,1 @@
+export { FormPartnerApp } from './form'

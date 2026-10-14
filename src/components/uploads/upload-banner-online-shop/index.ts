@@ -1,0 +1,1 @@
+export { UploadBannerOnlineShopImage } from './upload'

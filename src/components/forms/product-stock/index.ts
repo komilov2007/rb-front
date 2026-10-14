@@ -1,0 +1,1 @@
+export { ProductStock } from './form'

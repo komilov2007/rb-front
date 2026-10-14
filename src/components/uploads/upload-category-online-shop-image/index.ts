@@ -1,0 +1,1 @@
+export { UploadCategoryOnlineShopImage } from './upload'

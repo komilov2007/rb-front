@@ -1,0 +1,1 @@
+export { SelectPriceTypeRegos } from './select'

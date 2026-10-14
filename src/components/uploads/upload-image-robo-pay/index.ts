@@ -1,0 +1,1 @@
+export { UploadImageRoboPay } from './upload'

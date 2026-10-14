@@ -1,0 +1,1 @@
+export { FormTelegramPost } from './form'

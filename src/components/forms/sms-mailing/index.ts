@@ -1,0 +1,1 @@
+export { FormSmsMailing } from './form'

@@ -1,0 +1,1 @@
+export { TabLanguages } from './tab'

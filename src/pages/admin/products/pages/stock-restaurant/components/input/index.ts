@@ -1,0 +1,1 @@
+export { InputStock } from './input'

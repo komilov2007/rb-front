@@ -1,0 +1,1 @@
+export { DeleteShop } from './delete'

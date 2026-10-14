@@ -1,0 +1,1 @@
+export { FormSmartUp } from './form'

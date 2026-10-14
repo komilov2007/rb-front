@@ -1,0 +1,1 @@
+export { DeleteTelegramBot } from './delete'

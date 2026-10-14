@@ -1,0 +1,1 @@
+export { FormYandex } from './yandex'

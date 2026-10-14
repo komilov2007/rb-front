@@ -1,0 +1,1 @@
+export { SelectProductsPost } from './select'

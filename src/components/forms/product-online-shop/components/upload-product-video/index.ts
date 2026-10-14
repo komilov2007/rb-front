@@ -1,0 +1,1 @@
+export { UploadProductVideo } from './upload'

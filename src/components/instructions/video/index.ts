@@ -1,0 +1,1 @@
+export { InstructionVideo } from './instruction'

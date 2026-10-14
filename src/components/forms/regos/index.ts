@@ -1,0 +1,1 @@
+export { FormRegos } from './form'

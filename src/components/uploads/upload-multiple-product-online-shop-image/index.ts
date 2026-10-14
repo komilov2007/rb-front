@@ -1,0 +1,1 @@
+export { UploadMultipleProductOnlineShopImage } from './upload'

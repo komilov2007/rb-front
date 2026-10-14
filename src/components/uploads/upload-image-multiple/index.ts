@@ -1,0 +1,1 @@
+export { UploadImageMultiple } from './upload'

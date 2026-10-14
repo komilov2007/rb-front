@@ -1,0 +1,1 @@
+export { UploadTelegramPost } from './upload'

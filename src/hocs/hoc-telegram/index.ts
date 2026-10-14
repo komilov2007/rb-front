@@ -1,0 +1,1 @@
+export { HocTelegram } from './hoc'

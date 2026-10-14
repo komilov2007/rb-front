@@ -1,0 +1,1 @@
+export { Dizgo } from './dizgo'

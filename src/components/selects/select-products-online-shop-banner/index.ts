@@ -1,0 +1,1 @@
+export { SelectProductsOnlineShopBanner } from './select'

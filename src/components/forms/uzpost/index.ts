@@ -1,0 +1,1 @@
+export { FormUzpost } from './form'

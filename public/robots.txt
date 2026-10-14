@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+
+
+User-Agent: AdsBot-Google
+Disallow: /admin
+
+Sitemap: https://robosell.uz/sitemap.xml

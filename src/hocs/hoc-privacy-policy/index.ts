@@ -1,0 +1,1 @@
+export { HocPrivacyPolicy } from './hoc'
